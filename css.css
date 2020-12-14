@@ -161,10 +161,11 @@ a.button1:hover {
 	display: flex;
 	width: 100%;
 	background-color: hsla(0,0%,26%,1.00);
-	border-radius: 5px;
+	border-radius: 10px;
 	color: lightgray;
 	flex-wrap: wrap;
 	flex-grow:1;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .tourtitle{
@@ -188,11 +189,15 @@ a.button1:hover {
 	flex-grow:1;
 	align-content: center;
 	align-items: center;
+	width: 50%;
+	text-align: center;
+	padding-right: 40px;
 }
 
 .spacer{
+	display: flex;
 	flex-basis: 100%;
-	height: 0;
+	height: 40px;
 }
 
 #welcome {
