@@ -1,0 +1,240 @@
+@charset "utf-8";
+body{
+	font-family: Raleway, serif;
+}
+.title {
+	font-family: Playfair Display, serif;
+	width: 300px;
+	position: absolute;
+	padding: 10px;
+	padding-bottom: 10px;
+	}
+
+.intro {
+	font-family: raleway, serif;
+	padding-top: 100px;
+	padding-left: 10px;
+	width: 80%;
+}
+
+.intromain{
+	width: 100% !important;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.map{
+	position: absolute;
+	background-image: url(./map.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-left: 10px;
+	height: 500px;
+	width: 100%;
+	display: block;
+	}
+
+.header {
+	background-color: #000000;
+	border: 0px;
+	height: 125px;
+	color: #ffffff;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.logo {
+	position: absolute;
+	background-image: url("./jrhslogo.svg");
+	left: 43%;
+	width: 200px;
+	height: 200px;
+	background-repeat: no-repeat;
+}
+
+.buttons{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a.button {
+  	background-color: white; 
+  	color: black; 
+  	border: 2px solid #555555;
+  	padding: 16px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	transition-duration: 0.4s;
+  	cursor: pointer;
+	width: 200px;
+	-webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+}
+
+a.button1 {
+  	background-color: white; 
+  	color: black; 
+  	border: 2px solid #555555;
+	align-items: center;
+}
+
+a.button1:hover {
+  	background-color: #555555;
+  	color: white;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.marker {
+	position:relative;
+	background-image: url("./marker.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	text-indent: 2px;
+}
+
+.tool-tip {
+	background:hsla(0,0%,0%,0.60);
+	height: 16px;
+	font-family: raleway, serif;
+	text-align: center;
+	padding: 8px 0;
+	color: #ffffff;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding-top: 5px;
+	font-weight: bold;
+}
+
+#welcome {
+	visibility: hidden;
+	width: 100px;
+}
+
+#sport-etudes {
+	visibility: hidden;
+	width: 130px;
+}
+
+#cycle-1 {
+	visibility: hidden;
+	width: 100px;
+}
+
+#art {
+	visibility: hidden;
+	width: 80px;
+}
+
+#math {
+	visibility: hidden;
+	width: 80px;
+}
+
+#science {
+	visibility: hidden;
+	width: 80px;
+}
+
+#english {
+	visibility: hidden;
+	width: 80px;
+}
+
+#theatre {
+	visibility: hidden;
+	width: 150px;
+}
+
+#p {
+	font-family: raleway, serif;
+}
+#one {
+	top: 300px;
+	left: 370px;
+}
+
+#two {
+	top: 220px;
+    left: 200px;
+}
+
+#three {
+	top: 170px;
+	left: 300px;
+}
+
+#four {
+	top: 100px;
+	left: 280px;
+}
+
+#five {
+	top: 60px;
+	left: 400px;
+}
+
+#six {
+	top: 40px;
+	left: 500px;
+}
+
+#seven {
+	top: 45px;
+	left: 600px;
+}
+
+#eight {
+	position: inherit;
+	top: 100px;
+	left: 550px;
+}
+
+
+#one:hover #welcome{
+	visibility: visible; 
+} 
+
+#two:hover #sport-etudes{
+	visibility: visible; 
+} 
+
+#three:hover #cycle-1{
+	visibility: visible; 
+} 
+
+#four:hover #art{
+	visibility: visible; 
+} 
+
+#five:hover #math{
+	visibility: visible; 
+} 
+
+#six:hover #science{
+	visibility: visible; 
+} 
+
+#seven:hover #english{
+	visibility: visible; 
+} 
+
+#eight:hover #theatre{
+	visibility: visible; 
+} 
+
+
+a {
+	color: aliceblue;
+}
+
+
